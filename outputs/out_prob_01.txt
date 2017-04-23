@@ -1,0 +1,15 @@
+Enter problem number: [1-9]: 1
+Optimization terminated: average change in the fitness value less than options.FunctionTolerance.
+Genetic Algorithm
+-----------------
+Runing Time:            10.472s
+Best score achieved:    1173
+Space left:             0
+Packets used:           [58, 93, 97]
+
+Dynamic Programing Algorithm (Deterministic Solution)
+-----------------------------------------------------
+Runing Time:            0.004s
+Best score achieved:    1173
+Space left:             0
+Packets used:           [58, 93, 97]

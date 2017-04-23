@@ -57,3 +57,10 @@ for i=2:length(packetsUsedDP)
     fprintf(', %d', packetsUsedDP(i));
 end
 fprintf(']\n\n');
+
+% save output plot
+h = gcf;    % get current figure handle
+set(h,'Units','Inches');
+pos = get(h,'Position');
+set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+print(h, sprintf('images/Fitness_vs_Generation_prob_%02d', problemSelection), '-dpdf','-r0');
